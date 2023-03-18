@@ -277,10 +277,11 @@ a {
 
 .popular-top {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.popular .desc {
+.popular-top .desc {
     margin-top: 16px;
     width: 458px;
     font-size: 1.8rem;
@@ -290,7 +291,6 @@ a {
 
 .popular-top .controls {
     display: flex;
-    align-items: center;
     gap: 18px;
 }
 
